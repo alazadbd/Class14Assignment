@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.full-website {
+	width: 100%;
+	margin: auto;
+	margin-bottom: -19px;
+}
+
+/* header style code start here */
+.header-section{
+    background-color: #fff;
+}
+.primary-header{
+    text-align: center;
+    margin: 5px;
+}
+.primary-header ul{
+    
+}
+.primary-header li{
+    display: inline-block;
+    
+}
+.primary-header li a {
+	display: inline-block;
+	padding: 6px 13px;
+	text-decoration: none;
+	background-color: #48DBFB;
+	color: black;
+	font-weight: bold;
+    transition: .4s ease;
+    
+}
+.primary-header li a:hover{
+    background-color: #fff;
+    color: #48DBFB;
+}
+.primary-header li a::after{
+    content: " ";
+    background-color: #000;
+    width: 0;
+    height: 2px;
+    display: block;
+    transition: .4s ease;
+}
+.primary-header li:hover a::after{
+    width: 100%;
+}
+/* header style code start here */
+
+
+/* banner style code start here */
+.banner{
+    width: 100%;
+    height: 300px;
+    background-color: #48DBFB;
+}
+.banner-section {
+	color: #fff;
+	text-align: center;
+	padding-top: 100px;
+    margin-top: -10px;
+}
+.banner-section p {
+	margin-top: -10px;
+	font-weight: bold;
+}
+.banner-section h1 {
+	margin-top: -10px;
+	font-weight: bold;
+}
+
+/* button start */
+.banner-section .button a {
+    text-decoration: none;
+    width: 150px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: inline-block;
+    line-height: 47px;
+    color: #C1C1C1;
+    transition: .4s ease;
+    position: relative;
+    z-index: 1;
+}
+.banner-section .button a::before{
+    content: "";
+    width: 0%;
+    height: 100%;
+    background-color: black;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    border-radius: 10px;
+    transition: .4s ease;
+    z-index: -1;
+}
+.banner-section .button:hover a::before{
+    width: 100%;
+}
+/* banner style code end here */
+
+/* service section */
+.Gallery{
+    background-color: #fff;
+    padding: 100px;
+}
+.service {
+	text-align: center;
+}
+.service h2{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+/* service section end */
+
+/* Grid photo section */
+.box-item {
+	text-align: center;
+	margin-top: 80px;
+}
+.box1 {
+	display: inline-block;
+	width: 24%;
+	margin: 4px 4px;
+}
+.img-box{
+    width: 280px;
+	height: 220px;
+    overflow: hidden;
+}
+.img-box img {
+	width: 280px;
+	height: 220px;  
+    transition: .7s;
+      
+}
+.img1 img:hover{
+    transform: rotate(360deg);
+}
+.img2 img:hover{
+    transform: rotate(40deg);
+}.img3 img:hover{
+    transform: rotate(-40deg);
+}.img4 img:hover{
+    transform: rotate(-40deg);
+}.img5 img:hover{
+    transform: rotate(40deg);
+}.img6 img:hover{
+    transform: rotate(-360deg) skew(30deg);
+}.img7 img:hover{
+    transform: scale(1.5) rotate(10deg);
+}.img8 img:hover{
+    transform: scale(1.5) rotate(10deg);
+}
+/* Grid photo section end */
+/* about section */
+.about-section {
+	text-align: center;
+	width: 100%;
+	height: 100px;
+	margin-top: 100px;
+}
+.three-button {
+	position: relative;
+	margin-top: 40px;
+}
+.three-button .btn {
+	width: 85px;
+	height: 52px;
+	background-color: black;
+	color: white;
+	line-height: 36px;
+	border-radius: 1px;
+	position: absolute;
+}
+.three-button .btn1 {
+	top: 0px;
+	left: 90px;
+	transform: rotate(-45deg);
+    transition: .3s;
+}
+.three-button .btn1:hover{
+    transform: rotate(0deg);
+    background-color: #48DBFB;
+    color: #000;
+}
+.three-button .btn2 {
+	top: 0px;
+	left: 526px;
+    transition: .3s;
+}
+.three-button .btn2:hover{
+    transform: scale(1.2);
+    background-color: #48DBFB;
+    color: #000;
+}
+.three-button .btn3 {
+	top: 0px;
+	right: 90px;
+    transform: rotate(45deg);
+    transition: .3s;
+}
+.three-button .btn3:hover{
+    transform: rotate(0deg);
+    background-color: #48DBFB;
+    color: #000;
+}
+/* about section end */
+
+/* footer section */
+.footer p {
+	width: 100%;
+	height: 60px;
+	background-color: #2E2F31;
+	color: #ddd;
+	text-align: center;
+	margin-top: 40px;
+	line-height: 60px;
+}
+/* footer section end */
+
+
+
+
+
+
+        
+       
+        
+        
+        
+      
+       
